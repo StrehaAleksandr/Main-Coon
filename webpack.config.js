@@ -34,6 +34,7 @@ const plugins = () => {
     new HTMLWebpackPlugin({
       template: path.resolve(__dirname, 'src/index.html'),
       filename: 'index.html',
+      // minify: false,
       minify: {
         // collapseWhitespace: isProd
         collapseWhitespace: false
@@ -106,7 +107,7 @@ module.exports = {
         loader: 'html-loader',
       },
       {
-        test: /\.css$/i,
+        test: /\.css$/,
         use: [
           {
             loader: MiniCssExtractPlugin.loader,
