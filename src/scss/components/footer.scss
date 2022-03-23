@@ -1,0 +1,25 @@
+.main-footer {
+	background-color: #151313;
+}
+
+.main-footer {
+	display: flex;
+}
+
+.main-footer__list {
+	list-style: none;
+	display: flex;
+}
+
+.main-footer__item a {
+	fill: #a07b50;
+}
+
+.main-footer__item a:hover {
+	fill: #ffffff;
+}
+
+.main-footer__address,
+.main-footer__tel {
+	color: #ffffff;
+}

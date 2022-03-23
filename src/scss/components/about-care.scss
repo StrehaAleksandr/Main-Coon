@@ -1,0 +1,21 @@
+.about-care {
+	background-image: url(../../img/cat-background.png);
+	background-repeat: no-repeat;
+}
+
+.about-care__list {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.about-care__item {
+	width: 560px;
+	height: 165px;
+	border: 1px solid #a07b50;
+	padding-right: 60px;
+}
+
+.about-care__item p {
+	color: #ffffff;
+}

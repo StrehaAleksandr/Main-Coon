@@ -1,0 +1,46 @@
+.main-header {
+	background-color: #181716;
+}
+
+.main-header__navigation {
+	list-style: none;
+	margin: 0;
+	font-size: 18px;
+}
+
+.main-navigation {
+	display: flex;
+}
+
+.main-navigation__pages {
+	margin-top: 50px;
+}
+
+.main-navigation__pages a{
+	color: #ffffff;
+	opacity: 0.2;
+	padding-right: 50px;
+}
+
+.page--active a{
+	opacity: 1;
+}
+
+.main-navigation__logo {
+	padding-left: 100px;
+	margin-top: 45px;
+	order: 4;
+}
+
+.main-title {
+	font-size: 52px;
+	width: 345px;
+}
+
+.main-header__contacts-list {
+	list-style: none;
+}
+
+.main-header__contacts-item a{
+	fill: #ffffff;
+}

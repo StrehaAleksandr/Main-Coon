@@ -1,0 +1,20 @@
+.reviews__slider-1 h3,
+.reviews__slider-1 p, 
+.reviews__slider-2 h3, 
+.reviews__slider-2 p {
+	color: #ffffff;
+}
+
+.reviews__slider-1 p,
+.reviews__slider-2 p {
+	opacity: 0.72;
+}
+
+.reviews-slider-1__list, .reviews-slider-2__list {
+	list-style: none;
+	display: flex;
+}
+
+.reviews-slider-1__item, .reviews-slider-2__item {
+	border: 1px solid #a07b50;
+}
