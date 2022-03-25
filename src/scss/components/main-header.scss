@@ -1,0 +1,83 @@
+.main-header {
+	background-color: #181716;
+	position: relative;
+	margin: 0;
+	padding-bottom: 83px;
+	// height: 685px;
+}
+
+.main-header__navigation {
+	list-style: none;
+	margin: 0;
+	font-size: 18px;
+	position: relative;
+	z-index: 1;
+}
+
+.main-navigation {
+	display: flex;
+	margin-bottom: 115px;
+	margin-left: 180px;
+	padding: 0;
+}
+
+.main-navigation__pages {
+	margin-top: 50px;
+}
+
+.main-navigation__pages a{
+	color: #ffffff;
+	opacity: 0.2;
+	padding-right: 50px;
+}
+
+.page--active a{
+	opacity: 1;
+}
+
+.main-navigation__logo {
+	padding-left: 100px;
+	margin-top: 45px;
+	order: 4;
+}
+
+.main-title {
+	font-size: 52px;
+	width: 345px;
+	text-align: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.main-header__description {
+	margin-bottom: 55px;
+	width: 265px;
+}
+
+.main-header__cat {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 0;
+}
+
+.main-header__contacts-list {
+	list-style: none;
+	margin-top: 50px;
+	margin-left: 80px;
+	padding: 0;
+}
+
+.main-header__contacts-item a{
+	fill: #ffffff;
+}
+
+.main-header__city,
+.main-title,
+.main-header__description,
+.main-header__button {
+	margin-left: 180px;
+	position: relative;
+	z-index: 1;
+}
+
