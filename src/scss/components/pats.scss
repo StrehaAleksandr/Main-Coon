@@ -1,10 +1,23 @@
+.pats {
+	margin: 0;
+} 
+
+.pats__title {
+	margin-top: 225px;
+}
+
 .pats_paragraf {
-	width: 516px;
+	width: 530px;
+	text-align: center;
+	margin-left: 425px;
+	margin-top: 25px;
+	margin-bottom: 40px;
 }
 
 .pats__list {
 	list-style: none;
 	display: flex;
+	margin-left: 555px;
 }
 
 .pats__button{
