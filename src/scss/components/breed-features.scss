@@ -1,25 +1,25 @@
-.specials {
+.breed-features {
 	margin: 0;
 	position: relative;
 }
 
-.specials__paragraf {
+.breed-features__discription {
 	width: 750px;
 	text-align: center;
 	margin: 0 auto;
 }
 
-.specials__image-container {
+.breed-features__image-container {
 	position: relative;
 	margin-left: 400px;
 }
 
-.specials__image-cat {
+.breed-features__image-cat {
 	position: relative;
 	z-index: 1;
 }
 
-.specials__image-container::before {
+.breed-features__image-container::before {
 	content: "";
 	position: absolute;
 	display: block;
@@ -31,7 +31,7 @@
 	left: 30px;
 }
 
-.specials__image-container::after {
+.breed-features__image-container::after {
 	content: "";
 	position: absolute;
 	display: block;
@@ -43,7 +43,7 @@
 	left: -25px;
 }
 
-.specials__list {
+.breed-features__list {
 	list-style: none;
 	position: absolute;
 	top: 380px;
@@ -51,30 +51,30 @@
 	z-index: 2;
 }
 
-.specials__list :nth-child(2n) {
+.breed-features__list :nth-child(2n) {
 	text-align: left;
 	width: 200px;
 	left: 960px;
 }
 
-.specials__list :nth-child(1) {
+.breed-features__list :nth-child(1) {
 	left: 5px;
 }
 
-.specials__list :nth-child(2) {
+.breed-features__list :nth-child(2) {
 	margin-bottom: 130px;
 }
 
-.specials__list :nth-child(3) {
+.breed-features__list :nth-child(3) {
 	margin-bottom: 0;
 }
 
-.specials__list :nth-child(4) {
+.breed-features__list :nth-child(4) {
 	margin-bottom: 0;
 	left: 915px;
 }
 
-.specials__item {
+.breed-features__item {
 	position: relative;
 	color: #ffffff;
 	text-align: right;
@@ -82,7 +82,7 @@
 	margin-bottom: 75px;
 }
 
-.specials__item::after {
+.breed-features__item::after {
 	content: "";
 	position: absolute;
 	display: block;
@@ -94,6 +94,6 @@
 	right: -40px;
 }
 
-.specials__list :nth-child(2n)::after {
+.breed-features__list :nth-child(2n)::after {
 	left: -40px;
 }

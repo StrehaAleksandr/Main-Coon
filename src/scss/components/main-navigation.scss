@@ -1,0 +1,26 @@
+.main-navigation {
+	display: flex;
+	margin-bottom: 115px;
+	margin-left: 180px;
+	padding: 0;
+}
+
+.main-navigation__pages {
+	margin-top: 50px;
+}
+
+.main-navigation__pages a{
+	color: #ffffff;
+	opacity: 0.2;
+	padding-right: 50px;
+}
+
+.main-navigation__pages--active a{
+	opacity: 1;
+}
+
+.main-navigation__logo {
+	padding-left: 100px;
+	margin-top: 45px;
+	order: 4;
+}

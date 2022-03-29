@@ -14,34 +14,7 @@
 	z-index: 1;
 }
 
-.main-navigation {
-	display: flex;
-	margin-bottom: 115px;
-	margin-left: 180px;
-	padding: 0;
-}
-
-.main-navigation__pages {
-	margin-top: 50px;
-}
-
-.main-navigation__pages a{
-	color: #ffffff;
-	opacity: 0.2;
-	padding-right: 50px;
-}
-
-.main-navigation__pages--active a{
-	opacity: 1;
-}
-
-.main-navigation__logo {
-	padding-left: 100px;
-	margin-top: 45px;
-	order: 4;
-}
-
-.main-title {
+.main-header__title {
 	font-size: 52px;
 	width: 345px;
 	text-align: left;
@@ -73,7 +46,7 @@
 }
 
 .main-header__city,
-.main-title,
+.main-header__title,
 .main-header__description,
 .main-header__button {
 	margin-left: 180px;

@@ -7,16 +7,18 @@
 	display: flex;
 }
 
-.main-footer__list {
+.main-footer__social-list {
 	list-style: none;
 	display: flex;
 }
 
-.main-footer__item a {
+.main-footer__social-item a,
+.main-footer__logo {
 	fill: #a07b50;
 }
 
-.main-footer__item a:hover {
+.main-footer__social-item a:hover,
+.main-footer__logo:hover {
 	fill: #ffffff;
 }
 
