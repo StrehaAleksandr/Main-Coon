@@ -1,10 +1,10 @@
 .about-care {
 	background-image: url(../img/cat-background.png);
 	background-repeat: no-repeat;
-	// background-size: 1388px auto;
 	margin: 0;
 	padding: 0;
 	padding-top: 85px;
+	padding-bottom: 51px;
 }
 
 .about-care__title {
@@ -23,9 +23,15 @@
 	height: 165px;
 	border: 1px solid #a07b50;
 	padding-right: 60px;
+	padding-left: 60px;
 	margin-right: 45px;
 	margin-bottom: 45px;
 	position: relative;
+
+	&:hover {
+		background-color: #151313;
+		cursor: pointer;
+	}
 }
 
 .about-care__item::after {
@@ -34,7 +40,7 @@
 	position: absolute;
 	width: 59px;
 	height: 164px;
-	border-right: 1px solid #a07b50;
+	border-left: 1px solid #a07b50;
 	background-color: #a07b50;
 	top: 0;
 	right: 0;
@@ -53,10 +59,23 @@
 	z-index: 1;
 }
 
-.about-care__item:hover {
+.about-care__item:hover::after {
 	background-color: #151313;
+	border: 1px solid #a07b50;
+	border-right: none;
+	border-top: none;
+}
+
+.about-care__item h3 {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 40px;
+	margin-bottom: 14px;
 }
 
 .about-care__item p {
 	color: #ffffff;
+	font-size: 14px;
+	margin: 0;
+	width: 400px;
 }

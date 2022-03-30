@@ -41,9 +41,11 @@
 	margin-bottom: 35px;
 }
 
-.why-us__item:hover, .why-us__item:hover svg {
+.why-us__item:hover, 
+.why-us__item:hover svg {
 	background-color: #a07b50;
 	fill: #ffffff;
+	cursor: pointer;
 }
 
 .item__container p {

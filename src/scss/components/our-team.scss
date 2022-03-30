@@ -1,11 +1,44 @@
 .our-team {
 	background-color: #151313;
 	margin: 0;
+	position: relative;
+	padding-bottom: 70px;
+}
+
+.our-team__title {
+	padding-top: 85px;
+	margin-bottom: 30px;
 }
 
 .our-team__description {
 	width: 510px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 25px;
 }
 
+.our-team__slider-button {
+	position: absolute;
+	top: 50%;
+	border: none;
+	background-color: #151313;
+	cursor: pointer;
 
+	& svg {
+		stroke: #A07B50;
+		width: 12px;
+		height: 29px;
+	}
 
+	&:hover svg {
+		stroke: #ffffff;
+	}
+}
+
+.our-team__slider-button--left {
+	left: 90px;
+}
+
+.our-team__slider-button--right {
+	right: 90px;
+}
