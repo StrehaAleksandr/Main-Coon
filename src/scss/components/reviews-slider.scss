@@ -1,24 +1,44 @@
-.reviews-slider h3,
-.reviews-slider p {
+.reviews-slider__slide {
+	display: flex;
+	justify-content: center;
+}
+
+.reviews-slider__slide img{
+	width: 481px;
+	height: 332px;
+	position: relative;
+	left: 51px;
+	top: 45px;
+	z-index: 1;
+}
+
+.reviews-slider__container {
+	background-color: #151313;
+	width: 640px;
+	min-height: 408px;
+	padding-top: 110px;
+	padding-left: 145px;
+	position: relative;
+	left: -51px;
+}
+
+.reviews-slider__name,
+.reviews-slider__review {
 	color: #ffffff;
 }
 
-.reviews-slider p {
-	opacity: 0.72;
+.reviews-slider__name {
+	font-size: 24px;
 }
 
-.reviews__slider-button {
-	border: none;
-	background-color: #1f1c1d;
-	cursor: pointer;
+.reviews-slider__review {
+	opacity: 0.72;
+	width: 410px;
+	font-size: 14px;
+	margin-bottom: 45px;
+}
 
-	& svg {
-		stroke: #A07B50;
-		width: 12px;
-		height: 29px;
-	}
-
-	&:hover svg {
-		stroke: #ffffff;
-	}
+.reviews-slider__date {
+	font-size: 12px;
+	padding-left: 25px;
 }

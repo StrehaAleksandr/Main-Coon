@@ -1,8 +1,22 @@
 .reviews-socials {
 	list-style: none;
-	display: flex;
+	display: inline-flex;
+	margin: 0;
 }
 
 .reviews-socials__item {
-	border: 1px solid #a07b50;
+	margin-right: 20px;
 }
+
+.reviews-socials__item a {
+	border: 1px solid #a07b50;
+	padding: 6px;
+	fill: #a07b50;
+
+	&:hover {
+		border: 1px solid #ffffff;
+		fill: #ffffff;
+	}
+}
+
+

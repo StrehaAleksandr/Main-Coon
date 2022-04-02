@@ -11,19 +11,27 @@
 	z-index: 1;
 }
 
-.team-slider__container {
-	border: 1px solid #a07b50;
+.team-slider__wrapper {
+	border: 1px solid rgba($color: #a07b50, $alpha: 0.43);
 	width: 660px;
 	min-height: 402px;
-	padding-left: 125px;
-	background-color: #1f1c1d;
 	position: relative;
 	left: -23px;
 }
 
+.team-slider__content {
+	width: 600px;
+	min-height: 356px;
+	padding-left: 100px;
+	padding-bottom: 20px;
+	margin-left: 25px;
+	margin-bottom: 20px;
+	background-color: #1f1c1d;
+}
+
 .team-slider__name {
 	font-size: 24px;
-	margin-top: 95px;
+	padding-top: 70px;
 	margin-bottom: 10px;
 }
 

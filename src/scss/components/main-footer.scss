@@ -1,15 +1,31 @@
 .main-footer {
 	background-color: #151313;
 	margin: 0;
+	margin-top: 115px;
+	padding-top: 78px;
+	padding-bottom: 61px;
 }
 
 .main-footer {
 	display: flex;
 }
 
+.main-footer__logo {
+	margin-top: -8px;
+	margin-left: 245px;
+	margin-right: 120px;
+}
+
 .main-footer__social-list {
 	list-style: none;
 	display: flex;
+	justify-content: end;
+	margin: 0;
+	margin-right: 140px;
+}
+
+.main-footer__social-item {
+	margin-right: 10px;
 }
 
 .main-footer__social-item a,
@@ -22,7 +38,14 @@
 	fill: #ffffff;
 }
 
-.main-footer__address,
+.main-footer__address {
+	font: inherit;
+	font-size: 14px;
+	color: #FDF2E6;
+	opacity: 0.83;
+	margin-right: 70px;
+}
+
 .main-footer__tel {
-	color: #ffffff;
+	color: #FDF2E6;
 }
