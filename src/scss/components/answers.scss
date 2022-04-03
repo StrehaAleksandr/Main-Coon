@@ -1,19 +1,19 @@
-.answesrs {
+.answers {
 	margin: 0;
 }
 
-.answesrs__title {
+.answers__title {
 	margin-top: 75px;
 	margin-bottom: 20px;
 }
 
-.answesrs__description {
+.answers__description {
 	margin: 0 auto;
 	text-align: center;
 	margin-bottom: 55px;
 }
 
-.answesrs__list {
+.answers__list {
 	list-style: none;
 	color: #ddd0c3;
 	width: 910px;
@@ -23,11 +23,11 @@
 	counter-reset: section;
 }
 
-.answesrs__item {
+.answers__item {
 	position: relative;
 }
 
-.answesrs__item::before {
+.answers__item::before {
     counter-increment: section;
     content: "0" counter(section);
 	position: absolute;
@@ -38,7 +38,7 @@
 	color: #a07b50;
 }
 
-.item__question {
+.answers__item-question {
 	border: 1px solid #a07b50;
 	width: 795px;
 	min-height: 110px;
@@ -48,7 +48,7 @@
 	position: relative;
 }
 
-.item__answesr {
+.answers__item-answer {
 	border: 1px solid #a07b50;
 	width: 795px;
 	padding-left: 40px;
@@ -57,7 +57,7 @@
 	padding-bottom: 47px;
 }
 
-.answesrs__button {
+.answers__button {
 	width: 104px;
 	height: 109px;
 	background-color: #1f1c1d;
@@ -81,6 +81,6 @@
 	}
 }
 
-.answesrs__add-question {
+.answers__add-question {
 	margin-left: 915px;
 }
