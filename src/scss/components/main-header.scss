@@ -39,10 +39,28 @@
 	margin-top: 50px;
 	margin-left: 80px;
 	padding: 0;
+	width: 23px;
+	text-align: center;
+	position: relative;
+}
+
+.main-header__contacts-list::before {
+	content: "";
+	display: block;
+	width: 1px;
+	height: 78px;
+	background-color: rgba($color: #ffffff, $alpha: 0.61);
+	position: absolute;
+	left: 50%;
+	top: -90px;
 }
 
 .main-header__contacts-item a{
 	fill: #ffffff;
+
+	&:hover {
+		fill: #a07b50;
+	}
 }
 
 .main-header__wrapper {

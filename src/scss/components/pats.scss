@@ -18,6 +18,7 @@
 	list-style: none;
 	display: flex;
 	margin-left: 555px;
+	margin-bottom: 45px;
 }
 
 .pats__button{
@@ -28,6 +29,38 @@
 	background-color: #1f1c1d;
 }
 
+.pats__image-list {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	height: 490px;
+	width: 1030px;
+	justify-content: space-between;
+	margin: 0 auto;
+	margin-bottom: 75px;
+}
+
+.pats__image-litle {
+	width: 519px;
+	height: 214px;
+	margin-bottom: 35px;
+	margin-right: 35px;
+}
+
+.pats__image-megium {
+	width: 519px;
+	height: 241px;
+}
+
+.pats__image-big {
+	width: 475px;
+	height: 490px;
+}
+
 .pats__button--active {
 	opacity: 1;
+}
+
+.pats__see-more {
+	margin-left: 585px;
 }
