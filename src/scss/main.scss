@@ -2,6 +2,8 @@
   "base/variables.scss",
   "base/typography.scss",
   "base/global.scss";
+@import "components/title.scss";
+@import "components/button.scss";
 @import "components/main-header.scss";
 @import "components/main-navigation.scss";
 @import "components/about-care.scss";
