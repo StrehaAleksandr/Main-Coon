@@ -46,3 +46,29 @@
 	width: 405px;
 	margin-bottom: 40px;
 }
+
+.team-slider__slider-button {
+	position: absolute;
+	top: 50%;
+	border: none;
+	background-color: #151313;
+	cursor: pointer;
+
+	& svg {
+		stroke: #A07B50;
+		width: 12px;
+		height: 29px;
+	}
+
+	&:hover svg {
+		stroke: #ffffff;
+	}
+}
+
+.team-slider__slider-button--left {
+	left: 90px;
+}
+
+.team-slider__slider-button--right {
+	right: 90px;
+}

@@ -42,3 +42,30 @@
 	font-size: 12px;
 	padding-left: 25px;
 }
+
+.reviews-slider__button {
+	border: none;
+	background-color: #1f1c1d;
+	cursor: pointer;
+
+	position: absolute;
+	top: 50%;
+
+	& svg {
+		stroke: #A07B50;
+		width: 12px;
+		height: 29px;
+	}
+
+	&:hover svg {
+		stroke: #ffffff;
+	}
+}
+
+.reviews-slider__button--left {
+	left: 90px;
+}
+
+.reviews-slider__button--right {
+	right: 90px;
+}

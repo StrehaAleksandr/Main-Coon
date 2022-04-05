@@ -223,17 +223,17 @@
 							</div>
 						</div>
 					</div>
+					<button class="team-slider__slider-button team-slider__slider-button--left" type="button" aria-label="предыдущий слайд">
+						<svg width="15" height="31" viewBox="0 0 15 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M14 1L2 16.037L14 30" stroke-width="2"/>
+						</svg>
+					</button>
+					<button class="team-slider__slider-button team-slider__slider-button--right" type="button" aria-label="следующий слайд">
+						<svg width="15" height="31" viewBox="0 0 15 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="m1 1 12 15.037L1 30" stroke-width="2"/>
+						</svg>
+					</button>
 				</div>
-				<button class="our-team__slider-button our-team__slider-button--left" type="button" aria-label="предыдущий слайд">
-					<svg width="15" height="31" viewBox="0 0 15 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M14 1L2 16.037L14 30" stroke-width="2"/>
-					</svg>
-				</button>
-				<button class="our-team__slider-button our-team__slider-button--right" type="button" aria-label="следующий слайд">
-					<svg width="15" height="31" viewBox="0 0 15 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="m1 1 12 15.037L1 30" stroke-width="2"/>
-					</svg>
-				</button>
 			</section>
 			<section class="answers">
 				<h2 class="answers__title title">Вопрос-Ответ</h2>
@@ -357,17 +357,17 @@
 							</ul>
 						</div>
 					</div>
+					<button class="reviews-slider__button reviews-slider__button--left" type="button" aria-label="предыдущий слайд">
+						<svg width="15" height="31" viewBox="0 0 15 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M14 1L2 16.037L14 30" stroke-width="2"/>
+						</svg>
+					</button>
+					<button class="reviews-slider__button reviews-slider__button--right" type="button" aria-label="следующий слайд">
+						<svg width="15" height="31" viewBox="0 0 15 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="m1 1 12 15.037L1 30" stroke-width="2"/>
+						</svg>
+					</button>
 				</div>
-				<button class="reviews__slider-button reviews__slider-button--left" type="button" aria-label="предыдущий слайд">
-					<svg width="15" height="31" viewBox="0 0 15 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M14 1L2 16.037L14 30" stroke-width="2"/>
-					</svg>
-				</button>
-				<button class="reviews__slider-button reviews__slider-button--right" type="button" aria-label="следующий слайд">
-					<svg width="15" height="31" viewBox="0 0 15 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="m1 1 12 15.037L1 30" stroke-width="2"/>
-					</svg>
-				</button>
 			</section>
 		</main>
 		<footer class="main-footer">
@@ -403,11 +403,11 @@
 			<form class="modal__form" action="#" method="get">
 				<label for="name" class="modal__name-label">
 					Как к вам обращаться?
-					<input id="name" type="text" placeholder="Введите имя">
+					<input id="name" type="text" placeholder="Введите имя" required>
 				</label>
 				<label for="tel" class="modal__tel-label">
 					Номер телефона
-					<input id="tel" type="tel" placeholder="+7 ( _ _ _ ) _ _ _ – _ _ – _ _">
+					<input id="tel" type="tel" placeholder="+7 ( _ _ _ ) _ _ _ – _ _ – _ _" required>
 				</label>
 				<p class="modal__agree">
 					Нажимая на кнопку «Заказать звонок», я даю
