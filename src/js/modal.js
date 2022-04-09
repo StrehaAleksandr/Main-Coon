@@ -23,7 +23,8 @@ if (buttonOpen) {
     })
 
     window.addEventListener("keydown", function(evt){
-        if (evt.keyCode === 27) {
+        console.log(evt.key);
+        if (evt.key === "Escape") {
             evt.preventDefault();
             modal.classList.add('hidden');
             overlay.classList.add('hidden');

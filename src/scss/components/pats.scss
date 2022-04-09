@@ -1,5 +1,7 @@
 .pats {
 	margin: 0;
+	
+	position: relative;
 } 
 
 .pats__title {
@@ -64,4 +66,75 @@
 
 .pats__see-more {
 	margin-left: 585px;
+}
+
+.pats__image-button {
+	
+	display: none;
+}
+
+.pats__image-button--left {
+	left: 90px;
+}
+
+.pats__image-button--right {
+	right: 90px;
+}
+
+@media (max-width: $tablet-width) {
+	.pats__list {
+		margin-left: 245px;
+	}
+
+	.pats__see-more {
+		margin-left: 280px; 
+	}
+
+	.pats__image-list {
+		width: 605px;
+		align-content: center;
+	}
+
+	.pats__image-litle {
+		margin: 0;
+		display: none;
+	}
+
+	.pats__image-megium {
+		margin: 0;
+		display: none;
+	}
+
+	.pats__image-big {
+		width: 475px;
+		height: 490px;
+	}	
+
+	.pats__image-button {
+		display: inline-block;
+		border: none;
+		background-color: #1f1c1d;
+		cursor: pointer;
+	
+		position: absolute;
+		top: 50%;
+	
+		& svg {
+			stroke: #A07B50;
+			width: 12px;
+			height: 29px;
+		}
+	
+		&:hover svg {
+			stroke: #ffffff;
+		}
+	}
+	
+	.pats__image-button--left {
+		left: 30px;
+	}
+	
+	.pats__image-button--right {
+		right: 30px;
+	}
 }

@@ -37,8 +37,10 @@
 }
 
 .why-us__item p {
+	margin: 0 auto;
 	margin-top: 35px;
 	margin-bottom: 35px;
+	width: 235px;
 }
 
 .why-us__item:hover, 
@@ -50,4 +52,17 @@
 
 .why-us__item-container p {
 	padding-top: 10px;
+}
+
+@media (max-width: $tablet-width) {
+	.why-us__list {
+		flex-direction: column;
+	}
+
+	.why-us__item {
+		margin: 0 auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		height: 305px;
+	}
 }

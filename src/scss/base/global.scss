@@ -69,6 +69,13 @@ input[type="radio"].visually-hidden {
     margin: 0 auto;
 }
 
+@media (max-width: $tablet-width) {
+  .wrapper {
+    width: auto;
+    margin: 0 auto;
+  }
+}
+
 .hidden {
 	display: none;
 }
