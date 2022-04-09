@@ -80,3 +80,11 @@
 	margin: 0;
 	width: 400px;
 }
+
+@media (max-width: $tablet-width) {
+	.about-care {
+		background-image: url(../img/cat-background-table.png);
+		background-repeat: no-repeat;
+		padding-bottom: 0;
+	}
+}
