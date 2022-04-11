@@ -32,7 +32,6 @@
 				</p>
 				<a href="pats.html" class="main-header__button button">Смотреть котиков</a>
 			</div>
-			<img class="main-header__cat" src="img/main-cat.png" alt="Питомец породы Main-Coon">
 			<ul class="main-header__contacts-list">
 				<li class="main-header__contacts-item">
 					<a href="index.html" aria-label="Вконтакте">
@@ -50,6 +49,13 @@
 					</a>
 				</li>
 			</ul>
+			<picture  class="main-header__cat">
+				<source media="(max-width: 320px)" srcset="img/main-cat-mobile@1x.png 1x,
+															img/main-cat-mobile@2x.png 2x">
+				<source media="(max-width: 767px)" srcset="img/main-cat-tablet@1x.png 1x,
+															img/main-cat-tablet@2x.png 2x">
+				<img src="img/main-cat-desktop@1x.png" srcset="img/main-cat-desktop@2x.png 2x" alt="Питомец породы Main-Coon">
+			</picture>
 		</header>
 		<main>
 			<section class="pats">
@@ -69,9 +75,27 @@
 					</li>
 				</ul>
 				<div class="pats__image-list">
-					<img src="img/pats-cat-1.png" class="pats__image-litle" alt="Кот">
-					<img src="img/pats-cat-2.png" class="pats__image-megium" alt="Кошка">
-					<img src="img/pats-cat-3.png" class="pats__image-big" alt="Котёнок">
+					<picture class="pats__image-litle">
+						<source media="(max-width: 320px)" srcset="img/pets-list-1-mobile@1x.jpg 1x,
+															img/pets-list-1-mobile@2x.jpg 2x">
+						<source media="(max-width: 767px)" srcset="img/pets-list-1-tablet@1x.jpg 1x,
+															img/pets-list-1-tablet@2x.jpg 2x">
+						<img src="img/pets-list-1-desktop@1x.png" srcset="img/pets-list-1-desktop@2x.png 2x" alt="Кот">
+					</picture>
+					<picture class="pats__image-megium">
+						<source media="(max-width: 320px)" srcset="img/pets-list-2-mobile@1x.jpg 1x,
+															img/pets-list-2-mobile@2x.jpg 2x">
+						<source media="(max-width: 767px)" srcset="img/pets-list-2-tablet@1x.jpg 1x,
+															img/pets-list-2-tablet@2x.jpg 2x">
+						<img src="img/pets-list-2-desktop@1x.png" srcset="img/pets-list-2-desktop@2x.png 2x" alt="Кошка">
+					</picture>
+					<picture class="pats__image-big">
+						<source media="(max-width: 320px)" srcset="img/pets-list-3-mobile@1x.jpg 1x,
+															img/pets-list-3-mobile@2x.jpg 2x">
+						<source media="(max-width: 767px)" srcset="img/pets-list-3-tablet@1x.jpg 1x,
+															img/pets-list-3-tablet@2x.jpg 2x">
+						<img src="img/pets-list-3-desktop@1x.png" srcset="img/pets-list-3-desktop@2x.png 2x" alt="Котёнок">
+					</picture>
 					<button class="pats__image-button pats__image-button--left" type="button" aria-label="предыдущий слайд">
 						<svg width="15" height="31" viewBox="0 0 15 31" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path d="M14 1L2 16.037L14 30" stroke-width="2"/>
@@ -91,17 +115,23 @@
 					вы получите умное животное, которому нет равных
 				</p>
 				<div class="breed-features__image-container">
-					<img class="breed-features__image-cat" src="img/cat-about.png" alt="Особенности">
+					<picture class="breed-features__image-cat">
+						<source media="(max-width: 320px)" srcset="img/breed-features-mobile@1x.png 1x,
+															img/breed-features-mobile@2x.png 2x">
+						<source media="(max-width: 767px)" srcset="img/breed-features-tablet@1x.png 1x,
+															img/breed-features-tablet@2x.png 2x">
+						<img src="img/breed-features-desktop@1x.png" srcset="img/breed-features-desktop@2x.png 2x" alt="Особенности">
+					</picture>
 				</div>
 				<ul class="breed-features__list">
 					<li class="breed-features__item">
 						Легко уживается в семьях с детьми или другими животными
 					</li>
 					<li class="breed-features__item">
-						Внешний вид этой кошки похож на дикую рысь
+						Выполняет команды как дрессированная собака
 					</li>
 					<li class="breed-features__item">
-						Выполняет команды как дрессированная собака
+						Внешний вид этой кошки похож на дикую рысь
 					</li>
 					<li class="breed-features__item">
 						Вес может достигать 12 кг, а длина 1 м

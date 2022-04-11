@@ -77,11 +77,9 @@
 	}
 
 	.main-header__cat {
-		// width: 784px;
-		// height: 533px;
-		// top: 50px;
-		// right: 10px;
-		display: none;
+		top: auto;
+		bottom: -4px;
+		right: 0;
 	}
 
 	.main-header__contacts-list {
