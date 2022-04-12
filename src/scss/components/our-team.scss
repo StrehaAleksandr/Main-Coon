@@ -16,3 +16,9 @@
 	margin: 0 auto;
 	margin-bottom: 25px;
 }
+
+@media (max-width: $tablet-width) {
+	.our-team {
+		padding-bottom: 195px;
+	}
+}

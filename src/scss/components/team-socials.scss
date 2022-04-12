@@ -1,14 +1,17 @@
 .team-socials {
 	list-style: none;
 	display: flex;
-	fill: #ffffff;
 	padding: 0;
-}
-
-.team-socials__item a:hover {
-	fill: #a07b50;
 }
 
 .team-socials__item {
 	margin-right: 15px;
+}
+
+.team-socials__item svg {
+	fill: #ffffff;
+
+	&:hover {
+		fill: #a07b50;
+	}
 }

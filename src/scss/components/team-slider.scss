@@ -3,9 +3,7 @@
 	justify-content: center;
 }
 
-.team-slider__slide img {
-	width: 360px;
-	height: 356px;
+.team-slider__slide picture {
 	position: relative;
 	right: -23px;
 	z-index: 1;
@@ -23,7 +21,6 @@
 	width: 600px;
 	min-height: 356px;
 	padding-left: 100px;
-	padding-bottom: 20px;
 	margin-left: 25px;
 	margin-bottom: 20px;
 	background-color: #1f1c1d;
@@ -71,4 +68,34 @@
 
 .team-slider__slider-button--right {
 	right: 90px;
+}
+
+@media (max-width: $tablet-width) {
+	.team-slider__slide picture {
+		position: absolute;
+		bottom: 100px;
+		right: 130px;
+	}
+
+	.team-slider__wrapper {
+		position: static;
+		width: 650px;
+		min-height: 410px;
+	}
+
+	.team-slider__content {
+		width: 600px;
+		min-height: 359px;
+		margin: 25px;
+		padding-left: 105px;
+	}
+
+	.team-slider__slider-button {
+		top: auto;
+		bottom: 97px;
+	}
+
+	.team-slider__slider-button--left {
+		left: 390px;
+	}
 }
