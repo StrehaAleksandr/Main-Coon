@@ -46,3 +46,22 @@
 .main-footer__tel {
 	color: #FDF2E6;
 }
+
+@media (max-width: $tablet-width) {
+	.main-footer {
+		padding-top: 45px;
+		padding-bottom: 45px;
+	}
+
+	.main-footer__logo {
+		display: none;
+	}
+
+	.main-footer__social-list {
+		margin-right: 125px;
+	}
+
+	.main-footer__address {
+		margin-right: 80px;
+	}
+}

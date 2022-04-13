@@ -128,3 +128,70 @@
 .js-required {
 	border: 1px solid red;
 }
+
+@media (max-width: $tablet-width) {
+	.modal {
+		width: 285px;
+		padding: 20px;
+	}
+
+	.modal__close {
+		right: 20px;
+	}
+
+	.modal__title {
+		font-size: 18px;
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+
+	.modal__description {
+		margin-bottom: 30px;
+		font-size: 16px;
+	}
+
+	.modal__form {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.modal__agree {
+		font-size: 10px;
+		padding-right: 20px;
+		order: 4;
+	}
+
+	.modal__form label {
+		width: 244px;
+		font-size: 14px;
+		font-style: bold;
+	}
+
+	.modal__name-label {
+		margin-bottom: 20px;
+	}
+
+	.modal__tel-label {
+		margin-bottom: 30px;
+	}
+
+	#name,
+	#tel {
+		padding-right: 60px;
+		box-sizing: border-box;
+		width: 244px;
+		border: 1px solid rgba($color: #674C33, $alpha: 0.1);
+		border-radius: 2px;
+	}
+
+	.modal__button {
+		font-size: 11px;
+		width: 244px;
+		margin-bottom: 15px;
+	}
+
+	.modal__button::after {
+		top: 20px;
+		right: 60px;
+	}
+}
