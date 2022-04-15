@@ -139,3 +139,70 @@
 		right: 30px;
 	}
 }
+
+@media (max-width: $mobile-width) {
+	.pats__title {
+		font-size: 28px;
+		margin-top: 60px;
+	}
+
+	.pats__description {
+		width: 290px;
+		font-size: 14px;
+	}
+
+	.pats__list {
+		margin-left: 0;
+		padding: 0;
+		margin-bottom: 40px;
+	}
+
+	.pats__item {
+		margin-left: 35px;
+	}
+
+	.pats__button {
+		font-size: 16px;
+	}
+
+	.pats__image-list {
+		width: 234px;
+		height: 248px;
+		margin-bottom: 60px;
+	}
+
+	.pats__image-big {
+		width: 234px;
+		height: 248px;
+	}
+
+	.pats__image-megium {
+		width: 208px;
+		height: 99px;
+		margin-left: 0;
+		margin-top: 70px;
+	}
+
+	.pats__image-litle {
+		width: 234px;
+		height: 99px;
+		margin-left: 0;
+		margin-top: 70px;
+	}
+
+	.pats__see-more {
+		margin-left: 90px;
+	}
+
+	.pats__image-button {
+		top: 310px;
+	}
+
+	.pats__image-button--left {
+		left: 15px;
+	}
+	
+	.pats__image-button--right {
+		right: 15px;
+	}
+}
