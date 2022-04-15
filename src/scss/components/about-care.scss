@@ -106,3 +106,56 @@
 		margin-bottom: 25px;
 	}
 }
+
+@media (max-width: $mobile-width)  {
+	.about-care {
+		background-image: url(../img/bg-care-mobile@1x.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding-top: 60px;
+		padding-bottom: 60px;
+
+		@media (min-resolution: $retina-dppx) {
+			background-image: url(../img/bg-care-mobile@2x.jpg);
+		}
+	}
+
+	.about-care__title {
+		font-size: 28px;
+		margin: 0 auto;
+		margin-bottom: 40px;
+		width: 228px;
+	}
+
+	.about-care__list {
+		padding: 0;
+	}
+
+	.about-care__item {
+		width: 290px;
+		min-height: 152px;
+		padding: 25px;
+		padding-right: 50px;
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}
+
+	.about-care__item h3 {
+		margin-top: 0;
+		font-size: 18px;
+	}
+
+	.about-care__item p {
+		width: auto;
+		font-size: 14px;
+	}
+
+	.about-care__item::after {
+		width: 46px;
+		min-height: 152px;
+	}
+
+	.about-care__item::before {
+		right: 10px;
+	}
+}
