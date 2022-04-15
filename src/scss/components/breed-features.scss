@@ -167,3 +167,71 @@
 		left: -20px;
 	}
 }
+
+@media (max-width: $mobile-width) {
+	.breed-features {
+		padding-bottom: 35px;
+	}
+
+	.breed-features__title {
+		font-size: 28px;
+		width: 190px;
+		text-align: center;
+		margin: 0 auto;
+		margin-top: 75px;
+	}
+
+	.breed-features__discription {
+		width: 280px;
+		font-size: 14px;
+		margin-bottom: 25px;
+	}
+
+	.breed-features__image-container {
+		margin-left: 0;
+		width: 280px;
+		margin: 0 auto;
+	}
+
+	.breed-features__image-container::before {
+		width: 230px;
+		height: 230px;
+		top: 58px;
+		left: 25px;
+	}
+
+	.breed-features__image-container::after {
+		width: 280px;
+		height: 280px;
+		left: 0;
+		top: 30px;
+	}
+
+	.breed-features__list {
+		position: static;
+		padding-left: 35px;
+		margin-top: 50px;
+		margin-bottom: 0;
+	}
+
+	.breed-features__list :nth-child(1n) {
+		top: 0;
+		left: 0;
+		width: 260px;
+		margin-bottom: 25px;
+	}
+
+	.breed-features__list :nth-child(4) {
+		order: 3;
+	}
+
+	.breed-features__item {
+		text-align: left;
+		font-size: 14px;
+	}
+
+	.breed-features__list :nth-child(1n)::after {
+		left: -22px;
+		top: 2px;
+	}
+}
