@@ -23,7 +23,7 @@
 .why-us__item {
 	background-color: #1f1c1d;
 	width: 360px;
-	height: 300px;
+	min-height: 300px;
 	text-align: center;
 	border: 20px solid #1f1c1d;
 	margin-left: 20px;
@@ -63,6 +63,36 @@
 		margin: 0 auto;
 		margin-top: 20px;
 		margin-bottom: 20px;
-		height: 305px;
+		min-height: 305px;
+	}
+}
+
+@media (max-width: $mobile-width) {
+	.why-us {
+		padding-bottom: 60px;
+	}
+	
+	.why-us__title {
+		font-size: 28px;
+		width: 184px;
+		margin: 0 auto;
+		padding-top: 60px;
+	}
+
+	.why-us__description {
+		font-size: 14px;
+		width: 290px;
+		margin: 0 auto;
+		margin-top: 30px;
+	}
+
+	.why-us__list {
+		margin-top: 40px;
+	}
+
+	.why-us__item {
+		width: 290px;
+		min-height: 248px;
+		border: 15px solid #1f1c1d;
 	}
 }
