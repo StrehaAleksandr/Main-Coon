@@ -219,17 +219,14 @@
 		left: 0;
 		width: 260px;
 		margin-bottom: 25px;
+		text-align: left;
+		font-size: 14px;
 	}
 
 	.breed-features__list :nth-child(4) {
 		order: 3;
 	}
-
-	.breed-features__item {
-		text-align: left;
-		font-size: 14px;
-	}
-
+	
 	.breed-features__list :nth-child(1n)::after {
 		left: -22px;
 		top: 2px;
