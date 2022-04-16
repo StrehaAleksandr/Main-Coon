@@ -102,3 +102,45 @@
 		right: 40px;
 	}
 }
+
+@media (max-width: $mobile-width) {
+	.reviews-slider__slide picture {
+		left: 40px;
+		top: 80px;
+	}
+
+	.reviews-slider__container {
+		margin-top: 125px;
+		width: 290px;
+		min-height: 357px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.reviews-slider__name {
+		font-size: 18px;
+	}
+
+	.reviews-slider__review {
+		font-size: 14px;
+		width: 231px;
+	}
+
+	.reviews-slider__date {
+		padding-left: 15px;
+	}
+
+	.reviews-slider__button {
+		top: 143px;
+		background-color: transparent;
+		padding: 0;
+	}
+
+	.reviews-slider__button--left {
+		left: 15px;
+	}
+	
+	.reviews-slider__button--right {
+		right: 15px;
+	}
+}
